@@ -1,10 +1,12 @@
 import './App.css';
 import Header from './Component/Header/Header';
+import Shop from './Component/Header/Shop/Shop';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
+      <Shop></Shop>
     </div>
   );
 }
