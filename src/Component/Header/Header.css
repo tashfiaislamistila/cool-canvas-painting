@@ -1,0 +1,7 @@
+.header{
+  font-size: larger;
+  color: rgb(172, 160, 243); /* Blue text color */
+  border: 2px solid currentcolor;
+  margin: 40px;
+
+}
