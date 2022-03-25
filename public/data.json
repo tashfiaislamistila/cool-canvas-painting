@@ -2,8 +2,8 @@
     {
         "id": "1",
         "price": 253,
-        "name": "Canvas for Oil or Acrylic Painting",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5gBV5ILJM25ZSsc77jjUy_GUe1Yqco7_ZJg&usqp=CAU"
+        "name": "Artist Visualisation",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOBfIMnAC58lYoSZaQykyRKZfSjk-ZZVhVEw&usqp=CAU"
     },
     {
         "id": "2",
@@ -26,49 +26,49 @@
     {
         "id": "5",
         "price": 343,
-        "name": "Sutton Oliver",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5gBV5ILJM25ZSsc77jjUy_GUe1Yqco7_ZJg&usqp=CAU"
+        "name": "Colorful Beach Painting",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTem7n3O1he3Qmrhnq2DyYqjq9fIRIHQp6InQ&usqp=CAU"
     },
     {
         "id": "6",
         "price": 365,
-        "name": "Barrett Marsh",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5gBV5ILJM25ZSsc77jjUy_GUe1Yqco7_ZJg&usqp=CAU"
+        "name": "Watercolor Painting",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9ftAXvGXCOdRxRWoK_Ns23h6cW_w5zbxzZg&usqp=CAU"
     },
     {
         "id": "7",
         "price": 365,
-        "name": "Barrett Marsh",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5gBV5ILJM25ZSsc77jjUy_GUe1Yqco7_ZJg&usqp=CAU"
+        "name": "Northernlights Mountain Painting",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGte9uIqAH6f2qNWBdsRRt4hSyiLpmy0VGLQ&usqp=CAU"
     },
     {
         "id": "8",
         "price": 365,
-        "name": "Barrett Marsh",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5gBV5ILJM25ZSsc77jjUy_GUe1Yqco7_ZJg&usqp=CAU"
+        "name": "Night Mountain Painting",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe5UiuvJ1NQuoEjvMxTLG5d2gFsf0rVD143bIug3uB6DF1mQ4RuVreZe7q_-NmC8DiLdE&usqp=CAU"
     },
     {
         "id": "9",
         "price": 365,
-        "name": "Barrett Marsh",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5gBV5ILJM25ZSsc77jjUy_GUe1Yqco7_ZJg&usqp=CAU"
+        "name": "Colorful Mountain Night Painting",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4IX6ZuAPHAK8y0aEL5JCjUyeVssAIBJoxzA&usqp=CAU"
     },
     {
         "id": "10",
         "price": 365,
-        "name": "Barrett Marsh",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5gBV5ILJM25ZSsc77jjUy_GUe1Yqco7_ZJg&usqp=CAU"
+        "name": "Northernlights Mountain Night Painting",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7N1pd6AJW2t8a-wh5FXdL660J_P-wd3z8iOTghkj6dKxhvtA5nMmH97sjIVQFTRSkE34&usqp=CAU"
     },
     {
         "id": "11",
         "price": 365,
-        "name": "Barrett Marsh",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5gBV5ILJM25ZSsc77jjUy_GUe1Yqco7_ZJg&usqp=CAU"
+        "name": "Nature Color Cherry blossom Painting",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlNKiUXajBke6yIgHFl5vsHxK28o1J7WhpEg&usqp=CAU"
     },
     {
         "id": "12",
         "price": 365,
-        "name": "Barrett Marsh",
+        "name": "Canvas for Oil or Acrylic Painting",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5gBV5ILJM25ZSsc77jjUy_GUe1Yqco7_ZJg&usqp=CAU"
     }
 ]
