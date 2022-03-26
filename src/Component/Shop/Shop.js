@@ -23,11 +23,16 @@ const Shop = () => {
         }
 
     }
+
     const arrayLength = cart.length;
     const randomNumber = () => {
         const singleOneSelect = Math.floor(Math.random() * (arrayLength));
         const randomOne = cart[singleOneSelect];
         setSelectOne(randomOne);
+    }
+    const deleteCart = () => {
+        setCart([]);
+        setSelectOne([]);
     }
     return (
         <div className='shop-container'>
@@ -54,12 +59,14 @@ const Shop = () => {
                 </div>
                 <div>
                     <button className='btn-recommend' onClick={randomNumber}>Recommended Painting</button>
+
+                </div>
+                <div>
+                    <button className='btn-delete' onClick={deleteCart}>Delete Painting</button>
                 </div>
                 <ShowData selectOne={selectOne}></ShowData>
             </div>
-            {/* <div>
-                <button className='btn-delete' onClick={randomNumber}>Delete</button>
-            </div> */}
+
             <div>
                 <h1>Question Answer</h1>
                 <h2> Props Vs State?</h2>
