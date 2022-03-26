@@ -8,6 +8,8 @@
   
 }
 .product img{
+    height: 150px;
+    width: 200px;
     margin-top: 20px;
     margin: 7px;
 }
@@ -27,9 +29,20 @@
     align-items: center;
     justify-content: center;
 }
+.btn-btn{
+    display: flex;
+    justify-content: center;
+       
+}
 .btn-cart .btn-text{
     margin-right: 5px;
 }
 .btn-cart:hover{
     background-color: grey;
+}
+@media only screen and (max-width:600px) {
+    .product img{
+       width:200px;
+    }
+    
 }
