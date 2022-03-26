@@ -24,16 +24,20 @@ const Shop = () => {
                         product={product}
                         handleAddToCart={handleAddToCart}
                     ></Product>)
-
                 }
             </div>
             <div className="selected-container">
                 <h4>Selected Painting</h4>
                 <div>
                     {
-                        cart.map((item) => (<h5 key={item.id}>{item.name}</h5>
+                        cart.map((item) => (<h5
+                            key={item.id}>
+                            {item.name}
+                        </h5>
                         ))}
-
+                </div>
+                <div>
+                    <button className='btn-recommend'>Recommended Painting</button>
                 </div>
             </div>
         </div>

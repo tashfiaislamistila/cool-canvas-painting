@@ -8,8 +8,9 @@
   
 }
 .product img{
-    height: 150px;
+    height: 180px;
     width: 200px;
+    object-fit: cover;
     margin-top: 20px;
     margin: 7px;
 }
@@ -36,6 +37,7 @@
 }
 .btn-cart .btn-text{
     margin-right: 5px;
+    font-weight: 700;
 }
 .btn-cart:hover{
     background-color: grey;
