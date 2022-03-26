@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+Welcome to Cool Canvas Painting Shop Git Repository
+
+This is Live Site Link: https://cool-canvas-painting-store-tashfiaislamistila.netlify.app/
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
