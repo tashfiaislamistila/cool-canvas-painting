@@ -1,26 +1,33 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
 import './Shop.css'
+import '../ShowData/ShowData'
+import ShowData from '../ShowData/ShowData';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
-
+    const [selectOne, setSelectOne] = useState([]);
+    // console.log(selectOne);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, []);
     const handleAddToCart = (product) => {
-        // console.log(product)
-        const newCart = [...cart, product];
-        // console.log(newCart)
-        setCart(newCart)
+        const newCart = [...cart, product]
+        if (newCart.length > 4) {
+            alert("You cant choose more then 4")
+        }
+        else {
+            setCart(newCart)
+        }
+
     }
     const arrayLength = cart.length;
     const randomNumber = () => {
         const singleOneSelect = Math.floor(Math.random() * (arrayLength));
-        const randomOne = cart[singleOneSelect]
-        return randomOne;
+        const randomOne = cart[singleOneSelect];
+        setSelectOne(randomOne);
     }
     return (
         <div className='shop-container'>
@@ -33,9 +40,9 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
-
             <div className="selected-container">
                 <h1>Selected Painting</h1>
+                <h2>Maximum Choose 4 painting</h2>
                 <div>
                     {
                         cart.map((item) => (<h3
@@ -48,7 +55,11 @@ const Shop = () => {
                 <div>
                     <button className='btn-recommend' onClick={randomNumber}>Recommended Painting</button>
                 </div>
+                <ShowData selectOne={selectOne}></ShowData>
             </div>
+            {/* <div>
+                <button className='btn-delete' onClick={randomNumber}>Delete</button>
+            </div> */}
             <div>
                 <h1>Question Answer</h1>
                 <h2> Props Vs State?</h2>
