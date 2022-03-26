@@ -1,4 +1,4 @@
-Welcome to Cool Canvas Painting Shop Git Repository
+Welcome to My project Cool Canvas Painting Shop Git Repository
 
 This is Live Site Link: https://cool-canvas-painting-store-tashfiaislamistila.netlify.app/
 
